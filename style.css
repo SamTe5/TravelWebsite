@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+.logo{
+    width: 50px;
+}
+
+.backGround{
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(0,0,0,.2),rgba(0,0,0,.2),rgba(0,0,0,.2)),url(images/background.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+
+.write{
+    font-size: large;
+    font-weight: bolder;
+}
