@@ -42,9 +42,16 @@ img{
 }
 
 .card{
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 180px;
     color: white;
+    transition: all 0.32s linear;
+    cursor: pointer;
+}
+
+.card:hover{
+    width: 200px;
+    height: 250px;
 }
 
 
@@ -58,27 +65,27 @@ img{
 }
 
 .tarih{
-    background-image: url(images/tarih.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)),url(images/tarih.jpg);
     background-position: center;
     background-size: cover;
     
 }
 
 .yemek{
-    background-image: url(images/yemek.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)),url(images/yemek.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .gez{
-    background-image: url(images/gez.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)),url(images/gez.jpg);
     background-position: center;
     background-size: cover;
 }
 
 
 .meslek{
-    background-image: url(images/meslek.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)),url(images/meslek.jpg);
     background-position: center;
     background-size: cover;
 }
