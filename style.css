@@ -23,6 +23,7 @@ img{
 
 .adam{
     height: 60%;
+    margin-left: 50%;
 }
 
 
@@ -43,10 +44,41 @@ img{
 .card{
     width: 150px;
     height: 200px;
+    color: white;
 }
 
 
 .topContent{
     width: 100%;
     height: 300px;
+}
+
+.shadowm{
+    box-shadow:rgb(255, 255, 255,.5) 0px 19px 38px, rgb(255, 255, 255,.2) 0px 15px 12px;
+}
+
+.tarih{
+    background-image: url(images/tarih.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.yemek{
+    background-image: url(images/yemek.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.gez{
+    background-image: url(images/gez.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.meslek{
+    background-image: url(images/meslek.jpg);
+    background-position: center;
+    background-size: cover;
 }
