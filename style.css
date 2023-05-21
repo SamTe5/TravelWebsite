@@ -5,19 +5,33 @@
     font-family:cursive;
 }
 
+
+
 .logo{
     width: 50px;
 }
 
 .backGround{
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(0,0,0,.2),rgba(0,0,0,.2),rgba(0,0,0,.2)),url(images/background.jpg);
+    background-image:url(images/back.jpg);
     background-position:center;
     background-size: cover;
+    position: relative;
 }
+
+
 
 
 .write{
     font-size: large;
     font-weight: bolder;
+}
+
+.cars{   
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    margin-left: 50%;
+    
+    
 }
