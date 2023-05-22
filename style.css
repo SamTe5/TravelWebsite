@@ -8,6 +8,9 @@
 img {
     max-width: 100%;
 }
+ul{
+    list-style-type: none;
+}
 
 .logo {
     width: 50px;
@@ -123,9 +126,9 @@ img {
     /* Dönme animasyonu */
     position: fixed;
     /* Sayfanın sabit bir bölümünde olmasını sağlar */
-    top: 50%;
+    top: 45%;
     /* Loader'ın dikey konumu */
-    left: 50%;
+    left: 45%;
     /* Loader'ın yatay konumu */
     transform: translate(-50%, -50%);
     /* Loader'ın merkezlemesi */
