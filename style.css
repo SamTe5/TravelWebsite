@@ -38,8 +38,6 @@ img {
     height: 350px;
     position: absolute;
     margin-left: 50%;
-
-
 }
 
 .navbar {
@@ -74,7 +72,7 @@ img {
 }
 
 .tarih {
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)), url(images/tarih.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .1)), url(images/tarih.jpg);
     background-position: center;
     background-size: cover;
 
@@ -147,4 +145,11 @@ img {
 
 #gecis {
     visibility: hidden;
+}
+
+.yemekBg{
+    background-image: url(images/recycle.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
