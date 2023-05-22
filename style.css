@@ -15,7 +15,7 @@ img {
 
 .backGround {
     height: 100vh;
-    background-image: url(images/back.jpg);
+    background-image: url(images/back.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -24,7 +24,7 @@ img {
 .adam {
     height: 60%;
     margin-left: 60%;
-    
+
 }
 
 
@@ -56,7 +56,7 @@ img {
     color: white;
     transition: transform 0.32s linear;
     cursor: pointer;
-    
+
 }
 
 .card:hover {
@@ -104,6 +104,47 @@ img {
     width: 80%;
     margin: auto;
     padding-bottom: 5%;
-    background-color: rgb(255, 255, 255,.4);
-    
+    background-color: rgb(255, 255, 255, .4);
+
+}
+
+/*LOADER*/
+
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Loader dairelerinin çerçeve rengi */
+    border-top: 16px solid #3498db;
+    /* Loader dairelerinin üst çerçeve rengi */
+    border-radius: 50%;
+    /* Dairelerin kenar yuvarlatma */
+    width: 120px;
+    /* Loader genişliği */
+    height: 120px;
+    /* Loader yüksekliği */
+    animation: spin 2s linear infinite;
+    /* Dönme animasyonu */
+    position: fixed;
+    /* Sayfanın sabit bir bölümünde olmasını sağlar */
+    top: 50%;
+    /* Loader'ın dikey konumu */
+    left: 50%;
+    /* Loader'ın yatay konumu */
+    transform: translate(-50%, -50%);
+    /* Loader'ın merkezlemesi */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+#gecis {
+    visibility: hidden;
 }
